@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/recipes"></ion-back-button>
+    </ion-buttons>
+    <ion-title>recipe-detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row >
+      <ion-col>Product ID: {{ loadedRecipe.OrderId }}</ion-col>
+  
+</ion-row>
+
+  <ion-list>
+    {{loadedRecipe.Description}}
+  </ion-list>
+
+</ion-grid>
+</ion-content>

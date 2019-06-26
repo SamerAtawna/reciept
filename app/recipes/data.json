@@ -1,0 +1,31 @@
+{
+  "orders": [{
+     "OrderId":1,
+     "CustomerId":4321,
+      "Name":"Yossi",
+      "Address":"Beer Sheva, 112244",
+      "Product":"Pizza",
+      "Description":"Pizza with all ingredients"
+      
+    
+  },
+  {
+     "OrderId":2,
+     "CustomerId":98765,
+      "Name":"Avi",
+      "Address":"Ashqelon, 665544",
+      "Product":"Shawarma",
+      "Description":"Shawarma with chips and drink"
+    
+  }
+  ,
+  {
+     "OrderId":2,
+     "CustomerId":98765,
+      "Name":"Omri",
+      "Address":"Ashqelon, 665544",
+         "Product":"Falafel",
+      "Description":"Shawarma with chips and drink"
+    
+  }]
+}
